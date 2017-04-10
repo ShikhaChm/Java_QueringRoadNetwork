@@ -1,19 +1,12 @@
-# Build and Release Folders
-bin/
-bin-debug/
-bin-release/
-[Oo]bj/ # FlashDevelop obj
-[Bb]in/ # FlashDevelop bin
+*.class
 
-# Other files and folders
-.settings/
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Package Files #
+*.jar
+*.war
+*.ear
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
